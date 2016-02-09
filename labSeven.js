@@ -31,4 +31,4 @@ for (var p in groceryList) {
 		total += groceryList[p].price;
 }
 
-console.log("Total: " + total);
+console.log("Total: " + total.toFixed(2));
