@@ -28,6 +28,6 @@
     return total += item.price;
   });
 
-  console.log("TOTAL: $" + total.toFixed(2));
+  console.log("TOTAL: $" + (total.toFixed(2)));
 
 }).call(this);

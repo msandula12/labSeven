@@ -18,7 +18,7 @@ groceryList = [
 total = 0
 
 groceryList.forEach (item) ->
-	console.log item.name + ": $" + item.price
+	console.log "#{item.name}: $#{item.price}"
 	total += item.price
 
-console.log "TOTAL: $" + total.toFixed(2)
+console.log "TOTAL: $#{total.toFixed(2)}"
